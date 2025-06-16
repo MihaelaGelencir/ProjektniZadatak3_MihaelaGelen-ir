@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+}
+
+.pozadina {
+  background-image: url("pozadina1.png");
+}
+
+.moj-font {
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 3em;
+  text-align: center;
+  color: #000000;
+  margin-top: 30px;
+}
+
+nav {
+  background-color: rgba(175, 63, 63, 0);
+  padding: 20px 0;
+}
+
+.navigacija {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigacija li {
+  margin: 0 30px;
+}
+
+.navigacija a {
+  font-size: 1.2em;
+  padding: 10px 15px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navigacija a:hover {
+  background-color: #ffffff;
+  color: #e64cae;
+  cursor: pointer;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px;
+}
+
+
+.a4-slika {
+  aspect-ratio: 2480 / 3508;
+  width: 100%;
+  max-width: 800px;
+  object-fit: cover;
+  display: block;
+  margin: 20px auto;
+  border: 2px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.slike-interesi {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
