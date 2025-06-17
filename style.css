@@ -9,7 +9,10 @@ body {
 .pozadina {
   background-image: url("pozadina1.png");
 }
-
+@font-face {
+  font-family: 'MihaelaGelencir';
+  src: url('MihaelaGelencir.ttf') format('truetype');
+}
 .moj-font {
   font-family: 'Comic Sans MS', cursive;
   font-size: 3em;
